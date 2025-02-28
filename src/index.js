@@ -7,8 +7,9 @@ function authorizeRequest(request, env, key) {
 	switch (request.method) {
 		case 'PUT':
 		case 'DELETE':
-		case 'GET':
 			return hasValidHeader(request, env);
+		case 'GET':
+			return true;
 		default:
 			return false;
 	}
