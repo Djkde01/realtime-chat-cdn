@@ -26,7 +26,7 @@ This worker handles uploading, retrieving, and deleting images from a Cloudflare
 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:Djkde01/realtime-chat-cdn.git
 cd r2-worker
 ```
 
@@ -119,7 +119,3 @@ curl -X DELETE \
 ## License
 
 MIT License
-
-```bash
-
-```
